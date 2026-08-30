@@ -1,22 +1,47 @@
-# DailyNewsBrief Agent
+# 📰 DailyNewsBrief AI Agent
 
-## 📌 Description
-Welcome to **DailyNewsBrief Agent**! This project is part of the curated software workspace.
+> **Autonomous AI news curation agent that fetches RSS feeds, summarizes top headlines, and compiles daily tech digests.**
+
+---
+
+## ✨ Features
+
+- 🌐 **News Aggregation & Scraping**
+  - Fetches top headlines from RSS feeds and global news endpoints.
+- 🧠 **AI News Summarization**
+  - Generates concise bullet-point digests and executive daily briefs.
+- ⚡ **Automated Execution**
+  - Runs standalone or as a background cron worker.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language**: Python 3.10+
+- **Libraries**: Requests, BeautifulSoup4, Feedparser
+
+---
 
 ## 🚀 Getting Started
 
-### Prerequisites
-Ensure you have the required runtime environment installed for this project:
-- **Node.js** (if applicable for web/frontend components)
-- **Python 3.10+** (if applicable for AI/voice scripts)
-- **Java JDK 17+** (if applicable for Java applications)
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Omkar4812x/DailyNewsBrief-Agent.git
+   cd DailyNewsBrief-Agent
+   ```
 
-### Installation & Execution
-1. Clone this repository to your local machine.
-2. Install dependencies:
-   - For Node.js projects: `npm install`
-   - For Python projects: `pip install -r requirements.txt` (or create a venv: `python -m venv venv`)
-3. Launch the application entry point.
+2. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## 📄 License & Attribution
-Created and maintained as part of the Tech Hub projects collection.
+3. **Run Agent**:
+   ```bash
+   python agent.py
+   ```
+
+---
+
+## 📄 License
+
+Distributed under the MIT License.
